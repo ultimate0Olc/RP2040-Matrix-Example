@@ -24,7 +24,7 @@ def fading_spiral():
         pixels.write()
         sleep_ms(75)
 
-    for index in range(2, -1, -1):  # Идем в обратном порядке
+    for index in range(2, -1, -1):  
         pixels[end_pixel[index]] = (0, 0, 0)
         pixels.write()
         sleep_ms(75)
